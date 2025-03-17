@@ -29,11 +29,19 @@ Quizzler is an interactive quiz game built using **Python** and **Tkinter**, des
 ```
 📦 Quiz Game
 ├── 📜 main.py          # Entry point of the game
+├── 📜 data.py          # Fetches the data from API
 ├── 📜 ui.py            # Handles UI components
 ├── 📜 quiz_brain.py    # Logic for fetching and checking answers
 ├── 📂 images/          # Stores True/False button images
 └── 📜 README.md        # Project documentation
 ```
+
+## API handling
+you can go through the API and change the parameters according to your needs.
+ ```bash
+   git clone https://github.com/yourusername/quiz-game.git
+   cd quiz-game
+   ```
 
 ## ⚡ Installation & Setup
 1. Clone the repository:
