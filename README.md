@@ -16,7 +16,7 @@ Quizzler is an interactive quiz game built using **Python** and **Tkinter**, des
 - **OOP (Object-Oriented Programming)**
 
 - ## ⚡ API USED
- [GitHub](https://opentdb.com/api.php) 
+ [https://opentdb.com/api.php](https://opentdb.com/api.php) 
 
   
 ## 🎮 How to Play
