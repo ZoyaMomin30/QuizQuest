@@ -55,12 +55,9 @@ you can go through the API and change the parameters according to your needs.
 Here’s how the project looks while running:  
 The question being asked:
 
-![QuizQuest Screenshot](images/question.png)
-
-
-![QuizQuest Screenshot](images/question1.png)
-
-![QuizQuest Screenshot](images/question2.png)
+<img src="images/question.png" alt="QuizQuest Logo" width="250" height="470">
+<img src="images/question1.png" alt="QuizQuest Logo" width="250" height="470">
+<img src="images/question2.png" alt="QuizQuest Logo" width="250" height="470">
 
 
 ## ⚡ Installation & Setup
