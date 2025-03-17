@@ -15,6 +15,10 @@ Quizzler is an interactive quiz game built using **Python** and **Tkinter**, des
 - **Tkinter** (for GUI)
 - **OOP (Object-Oriented Programming)**
 
+- ## ⚡ API USED
+ [GitHub](https://opentdb.com/api.php) 
+
+  
 ## 🎮 How to Play
 1. Run the `main.py` file.
 2. Read the displayed question.
@@ -28,20 +32,36 @@ Quizzler is an interactive quiz game built using **Python** and **Tkinter**, des
 ## 📂 Project Structure
 ```
 📦 Quiz Game
-├── 📜 main.py          # Entry point of the game
-├── 📜 data.py          # Fetches the data from API
-├── 📜 ui.py            # Handles UI components
-├── 📜 quiz_brain.py    # Logic for fetching and checking answers
-├── 📂 images/          # Stores True/False button images
-└── 📜 README.md        # Project documentation
+├── 📜 main.py             # Entry point of the game
+├── 📜 data.py             # Fetches the data from API
+├── 📜 ui.py               # Handles UI components
+├── 📜 question_model.py   # Has the structure of the question
+├── 📜 quiz_brain.py       # Logic for fetching and checking answers
+├── 📂 images/             # Stores True/False button images
+└── 📜 README.md           # Project documentation
 ```
 
 ## API handling
 you can go through the API and change the parameters according to your needs.
  ```bash
-   git clone https://github.com/yourusername/quiz-game.git
-   cd quiz-game
+   url= "https://opentdb.com/api.php"
+
+   parameters = {
+       "amount": 15,
+       "type": "boolean"
+   }
    ```
+## Project Preview 🚀
+Here’s how the project looks while running:  
+The question being asked:
+
+![QuizQuest Screenshot](images/question.png)
+
+
+![QuizQuest Screenshot](images/question1.png)
+
+![QuizQuest Screenshot](images/question2.png)
+
 
 ## ⚡ Installation & Setup
 1. Clone the repository:
@@ -65,9 +85,6 @@ you can go through the API and change the parameters according to your needs.
 
 ## 💡 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ---
 
