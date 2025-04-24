@@ -29,6 +29,15 @@ Quizzler is an interactive quiz game built using **Python** and **Tkinter**, des
 5. Score updates automatically.
 6. The game ends when all questions are answered.
 
+## Project Preview 🚀
+Here’s how the project looks while running:  
+The question being asked:
+
+<img src="images/question.png" alt="QuizQuest Logo" width="250" height="470">
+<img src="images/question1.png" alt="QuizQuest Logo" width="250" height="470">
+<img src="images/question2.png" alt="QuizQuest Logo" width="250" height="470">
+
+
 ## 📂 Project Structure
 ```
 📦 Quiz Game
@@ -51,13 +60,6 @@ you can go through the API and change the parameters according to your needs.
        "type": "boolean"
    }
    ```
-## Project Preview 🚀
-Here’s how the project looks while running:  
-The question being asked:
-
-<img src="images/question.png" alt="QuizQuest Logo" width="250" height="470">
-<img src="images/question1.png" alt="QuizQuest Logo" width="250" height="470">
-<img src="images/question2.png" alt="QuizQuest Logo" width="250" height="470">
 
 
 ## ⚡ Installation & Setup
